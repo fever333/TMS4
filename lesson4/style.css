@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    position: relative;
+}
+
+.block {
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    background-color: blue;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: orchid;
+    position: fixed;
+    bottom: 0;
+
+}
+
